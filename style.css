@@ -1,0 +1,314 @@
+/* Estilos generales */
+body {
+    background-color: #f4efef;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.head{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 63px;
+	background: #000000;
+	width: 100%;
+	z-index: 100;
+	position: fixed
+}
+
+.navbar {
+	display:flex;
+	margin-right: 10px;
+	
+
+}
+
+.logo {
+	margin-left: 30px;
+	
+}
+
+.logo a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	border: 10;
+}
+
+
+.navbar a {
+	display: block;
+	padding: 20px 20px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.navbar a:hover {
+	background: #0f4aa1;
+}
+
+.header {
+	display: flex;
+	height: 90vh;
+	background: url(IMAGENES/terraza.jpg);
+	background-size:103%;
+	box-sizing: border-box ;
+	
+}
+
+.title {
+	margin-top: 80px; 
+    margin-left: 20px; 
+	margin-bottom:10px;
+	font-size: 60px;
+	font-weight: 600;
+	color: #000000;
+	border-radius: 50%;
+
+}
+
+.inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: -10vh;
+    text-align: center;
+}
+
+.inicio .content {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 30px;
+    border-radius: 0px;
+}
+
+.inicio h1 {
+    font-size: 48px;
+    color: #0b0b0b;
+}
+
+.inicio p {
+    font-size: 25.5px;
+}
+
+.inicio .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #06f82e;
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.inicio .btn:hover {
+    background-color: #f2f7f1;
+    color: #171717;
+}
+
+p{
+	margin-bottom:80px;
+	font-size:18px;
+	color: #000000;
+	padding: 0 50px;
+
+}
+
+.text-box {
+    flex: 1;
+    max-width: 600px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    padding: 30px;
+}
+
+.image-box1 {
+    width: 350px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 8px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content-section2 {
+	
+    justify-content: space-around;
+    align-items: left;
+    margin-bottom: 10px;
+    gap: 20px;
+}
+
+ul {
+    text-align: left;
+    padding-left: 290px;
+}
+
+ul li {
+    margin: 12px 0;
+    font-size: 1.4em;
+}
+
+
+/* Estilos para la sección "Nosotros" */
+.nosotros {
+    padding: 50px 30px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.nosotros h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.content-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.text-box {
+    flex: 1;
+    max-width: 600px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.text-box h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.nosotros .content {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 30px;
+    border-radius: 0px;
+	font-size: 25.5px;
+}
+
+.nosotros h1 {
+    font-size: 48px;
+    color: #0b0b0b;
+}
+
+.nosotros p1 {
+    font-size: 25.5px;
+}
+
+/* Estilos para la sección de la iglesia */
+.iglesia {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.iglesia h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.image-box {
+    width: 350px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.social-media {
+    margin-top: 30px;
+}
+
+.social-media p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-media img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.social-media img:hover {
+    transform: scale(1.2);
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 0px;
+    padding: 10px 20px;
+    background-color: #06f82e;
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+
+.ubicacion{
+	font-size: 36px;
+    color: #0f4aa1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-size:cover;
+}
+
+
+/* Sección de contacto */
+.contacto {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contacto h2 {
+    font-size: 36px;
+    color: #0f4aa1;
+    margin-bottom: 20px;
+}
+
+.contacto p {
+    font-size: 24px;
+}
+
+.contacto a {
+    color: #021e47;
+    text-decoration: none;
+}
+
+.contacto a:hover {
+    color: #0320ff;
+}
+
